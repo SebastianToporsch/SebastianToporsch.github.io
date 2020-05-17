@@ -1,13 +1,33 @@
 body {
-  background-color: white;
+  /*background-image: url("Smash Wallpaper2.jpg");
+  background-position: center;*/
 }
-
+img{
+display: block;
+margin: 0 auto;
+}
 h1 {
-  color: Black;
-  text-align: center;
+  color: Red;
+  text-align: left;
+}
+h2 {
+color: Blue;
 }
 p{
-  font-family: arial;
-  font-size: 20px;
+  font-family: verdana;
+  font-size: 18px;
+  text-align: center;
+}
+
+#Spielprinzip{
+  font-family: verdana;
   text-align: justify;
+}
+#Video{
+  font-family: verdana;
+  text-align: justify;
+}
+#Characters{
+  font-family: verdana;
+  text-align: left;
 }
