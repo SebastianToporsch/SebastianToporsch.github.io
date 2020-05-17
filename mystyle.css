@@ -4,9 +4,10 @@ body {
 
 h1 {
   color: Black;
-  text-align: justify;
+  text-align: center;
 }
 p{
   font-family: arial;
   font-size: 20px;
+  text-align: justify;
 }
