@@ -7,21 +7,28 @@ display: block;
 margin: 0 auto;
 }
 h1 {
-  color: Red;
-  text-align: left;
+  color: Black;
+  text-align:center;
 }
 h2 {
-color: Blue;
+color: Black;
 }
 p{
   font-family: verdana;
   font-size: 18px;
   text-align: center;
 }
+#Spielprinzip img{
+  margin-right: 100px;
+}
 
-#Spielprinzip{
+
+#Spiel{
   font-family: verdana;
+  width: 600px;
+  height: 300px;
   text-align: justify;
+  margin-left: 300px;
 }
 #Video{
   font-family: verdana;
