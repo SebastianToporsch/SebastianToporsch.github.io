@@ -1,40 +1,84 @@
 body {
-  /*background-image: url("Smash Wallpaper2.jpg");
-  background-position: center;*/
+  background-color: #FAFAFA;
+  margin: 0 auto;
 }
 img{
-display: block;
-margin: 0 auto;
+  display: block;
+  margin: 0 auto;
+  width:1000px;
+  height:300px;
 }
 h1 {
-  color: Black;
+  font-weight: bold;
+  color: #DC143C;
   text-align:center;
 }
+
 h2 {
-color: Black;
+  font-weight: bold;
+  color: #0066cc;
+  text-align: center;
 }
+h3,h4,h5,h6{
+  font-weight: bold;
+}
+
 p{
-  font-family: verdana;
+  font-family: Georgia,verdana;
   font-size: 18px;
   text-align: center;
 }
+
+.clearfix{
+  overflow: auto;
+}
+.bild{
+  width: 40%;
+  height: 50%;
+}
+.test{
+  float: left;
+  margin-left: 200px;
+}
+#list{
+  font-family: Georgia,verdana;
+  font-size: 18px;
+  text-align: left;
+}
+
+#inner_List{
+  width: 300px;
+  height: 300px;
+  margin-left: 300px;
+  margin: 0 auto;
+}
+
+#frame{
+  width:500px;
+  height:300px;
+  margin: 0 auto;
+  display:block;
+}
+
 #Spielprinzip img{
   margin-right: 100px;
 }
 
+#Fähigkeiten{
+  width: 300px;
+  height: 100px;
+}
 
 #Spiel{
-  font-family: verdana;
-  width: 600px;
-  height: 300px;
+  font-family: Georgia,verdana;
+  width: 700px;
+  height: 200px;
   text-align: justify;
-  margin-left: 300px;
+  margin-left: 200px;
 }
-#Video{
-  font-family: verdana;
-  text-align: justify;
-}
-#Characters{
-  font-family: verdana;
+
+#Chars{
+  font-family: Georgia,verdana;
   text-align: left;
+  text-align: center;
 }
