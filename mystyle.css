@@ -1,6 +1,11 @@
+header{
+  background: #FAFAFA;
+}
+
 body {
-  background-color: #FAFAFA;
+  background-color: #2E2E2E;
   margin: 0 auto;
+  color: white;
 }
 img{
   display: block;
@@ -11,33 +16,42 @@ img{
 h1 {
   font-family: verdana,sans-serif;
   font-weight: bold;
-  color: #DC143C;
   text-align:center;
 }
 
 h2 {
   font-family: verdana,sans-serif;
   font-weight: bold;
-  color: #0066cc;
   text-align: center;
 }
 h3,h4,h5,h6{
   font-family: verdana,sans-serif;
   font-weight: bold;
+    text-align: center;
 }
 
 p{
   font-family: Georgia,sans-serif;
-  font-size: 18px;
+  font-size: 25px;
   text-align: center;
 }
 
-.clearfix{
-  overflow: auto;
-}
+
 .bild{
   width: 40%;
   height: 50%;
+}
+
+#arrow{
+  width: 300px;
+  height: 200px;
+}
+
+#next{
+  width: 500px;
+  height: 300px;
+  margin: 0 auto;
+  overflow: hidden;
 }
 #fähigkeiten{
   float: left;
@@ -50,6 +64,8 @@ p{
 }
 
 #inner_List{
+  font-size: 24px;
+  font-family: Georgia,sans-serif;
   width: 300px;
   height: 300px;
   margin-left: 300px;
@@ -57,7 +73,7 @@ p{
 
 }
 
-#frame{
+.frame{
   width:500px;
   height:300px;
   margin: 0 auto;
@@ -77,7 +93,7 @@ p{
 #Spiel{
   font-family: Georgia,sans-serif;
   width: 700px;
-  height: 200px;
+  height: 400px;
   text-align: justify;
   margin-left: 200px;
 }
