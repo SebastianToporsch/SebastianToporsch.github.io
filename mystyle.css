@@ -42,12 +42,12 @@ p{
   height: 50%;
 }
 
-#arrow{
+.arrow{
   width: 300px;
   height: 200px;
 }
 
-#next{
+.next{
   width: 500px;
   height: 300px;
   margin: 0 auto;
@@ -99,7 +99,7 @@ p{
 }
 
 
-#Chars{
+.Chars{
   font-family: Georgia,sans-serif;
   text-align: center;
 }
