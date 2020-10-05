@@ -140,6 +140,7 @@ p.middle{
   font-size: 2.0vw;
   background-color: #D2691E;
   display: flex;
+  justify-content: space-around;
   align-items: center;
   padding: 1%;
   }
