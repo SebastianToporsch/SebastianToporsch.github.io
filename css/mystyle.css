@@ -15,7 +15,7 @@ h1{
 h2{
   font-size: 2.5vw;
   font-weight: bold;
-  color: white;
+  color: rgb(230, 230, 230);
   margin-top: 0%;
   margin-left: 5%;
 }
@@ -24,7 +24,7 @@ h2.title-black{
   position: absolute;
   font-size: 200%;
   font-weight: bold;
-  color: rgb(0, 0, 0);
+  color: rgb(25, 25, 25);
   margin-top: 5%;
 }
 
@@ -32,13 +32,13 @@ h2.title-white{
   position: absolute;
   font-size: 200%;
   font-weight: bold;
-  color: rgb(255, 255, 255);
+  color: rgb(230, 230, 230);
   margin-top: 5%;
 }
 
 p.left{
   background: rgba(0, 0, 0, 0.7);
-  color: #ffffff;
+  color: rgb(230, 230, 230);
   position: absolute;
   margin-right: 55%;
   margin-left: 0%;
@@ -49,7 +49,7 @@ p.left{
 
 p.right{
   background: rgba(0, 0, 0, 0.7);
-  color: #ffffff;
+  color: rgb(230, 230, 230);
   position: absolute;
   margin-right: 5%;
   margin-left: 55%;
@@ -63,7 +63,7 @@ p.middle{
   position: absolute;
   background: rgba(0, 0, 0, 0.9);
   font-weight: bold;
-  color: #ffffff;
+  color: rgb(230, 230, 230);
   top: 15%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -93,7 +93,6 @@ p.middle{
   background-size: cover;
   height: auto;
   width: 100%;
-  background-image: url(../images/Guitar.jpg);
 }
 
 .container{
@@ -104,7 +103,7 @@ p.middle{
 }
 
 .mainbox{
-  color: white;
+  color: rgb(230, 230, 230);
   background: rgba(0, 0, 0,0.8);
   font-size: 150%;
   font-size: 2.5vw;
@@ -132,19 +131,21 @@ p.middle{
   margin-bottom: 0%
 ;}
 .box-text{
-  color: white;
+  color: rgb(230, 230, 230);
   font-size: 150%;
 }
 
 .navbar {
   font-weight: bold;
   font-size: 2.0vw;
-  background-color: #D2691E;
+  background-color:rgba(242, 118, 43, 1.00);
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding: 1%;
   }
+
+ 
 
 
 .flex-container {
@@ -166,7 +167,7 @@ p.middle{
 }
 
 .row p{
-  color: white;
+  color: rgb(230, 230, 230);
   margin: 5%;
   font-size: 200%;
   font-size: 2.0vw;
@@ -195,7 +196,7 @@ p.middle{
 
 a:link {
   width: 10%;
-  color: #000;
+  color: rgb(25, 25, 25);
   text-decoration: none;
   margin:auto;
   font-size: 2.0vw;
@@ -203,12 +204,25 @@ a:link {
 }
 
 a:visited{
-  color: rgba(28, 28, 28, 0);
+  color: rgba(25, 25, 25,0);
 
 }
 
 a:hover{
-  color: rgb(255, 255, 255);
+  color: rgb(230, 230, 230);
+}
+
+.fade-in{
+  animation: fadeIn 4s;
+}
+
+@keyframes fadeIn {
+  from{
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .fadescroll{
@@ -230,14 +244,8 @@ a:hover{
   opacity: 1;
 }
 
-@keyframes fadeIn {
-  from{
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
+
+
 
 
 
