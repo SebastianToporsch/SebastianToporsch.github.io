@@ -64,24 +64,25 @@ p.middle{
   background: rgba(0, 0, 0, 0.9);
   font-weight: bold;
   color: rgb(230, 230, 230);
-  top: 15%;
-  left: 50%;
+  margin-top: 5%;
+  margin-left: 50%;
   transform: translate(-50%, -50%);
   padding: 1%;
   text-align: center;
 }
 
 .middle2{
-  line-height: 200%;
+  line-height: 320%;
+  width: 40%;
   position: absolute;
   background: rgba(0, 0, 0, 0.9);
   font-weight: bold;
-  color: #ffffff;
-  margin-left: 30%;
-  margin-top: 15%;
-  padding: 4%;
-  padding-top: 0% ;
-  text-align: justify;
+  color: rgb(230, 230, 230);
+  margin-left: 25%;
+  margin-top: 10%;
+  padding: 0% 4% 2% 4%;
+  text-align: left;
+  
 }
 
 .bg{
@@ -96,7 +97,6 @@ p.middle{
 }
 
 .container{
-  display: block;
   margin: 0;
   font-size: 1.5vw;
   text-align: center;
@@ -144,8 +144,6 @@ p.middle{
   align-items: center;
   padding: 1%;
   }
-
- 
 
 
 .flex-container {
@@ -211,6 +209,8 @@ a:visited{
 a:hover{
   color: rgb(230, 230, 230);
 }
+
+
 
 .fade-in{
   animation: fadeIn 4s;
