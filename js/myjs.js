@@ -1,13 +1,13 @@
 WhatAnimation("fadescroll");
 WhatAnimation("moveleft");
 
-$(window).scroll(function() {
+$(window).scroll(function () {
     WhatAnimation("fadescroll");
     WhatAnimation("moveleft");
 });
 
 function WhatAnimation(name) {
-    $("." + name).each(function() {
+    $("." + name).each(function () {
         switch (name) {
             case "fadescroll":
                 AddClass(this, "fade");
@@ -32,6 +32,6 @@ function IsVisible(object) {
     var rand = $(object).offset();
     rand.bottom = rand.top + $(object).outerHeight();
     return !(
-        viewport < rand.top + 50  || $(window).scrollTop() > rand.bottom + 150
+        viewport < rand.top + 50 || $(window).scrollTop() > rand.bottom + 150
     );
 }
