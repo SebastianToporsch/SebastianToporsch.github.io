@@ -35,3 +35,8 @@ function IsVisible(object) {
         viewport < rand.top + 50 || $(window).scrollTop() > rand.bottom + 150
     );
 }
+
+window.addEventListener("load", function(){
+        const loader = document.querySelector(".loader"); 
+        loader.className += " hidden"; //class = loader hidden
+    });
