@@ -3,6 +3,7 @@ body{
   padding: 0;
   margin: 0;
   overflow-x: hidden;
+  z-index: 1;
 }
 
 h1{
@@ -207,13 +208,13 @@ a:visited{
 }
 
 a:hover{
-  color: rgb(230, 230, 230);
+  color: #e6e6e6;
 }
 
 
 
 .fade-in{
-  animation: fadeIn 4s;
+  animation: fadeIn 5s;
 }
 
 @keyframes fadeIn {
@@ -244,8 +245,29 @@ a:hover{
   opacity: 1;
 }
 
-.thumb{
-  border: 1px solid #222 ;
+.loader{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #222222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader.hidden{
+  animation: fadeOut 1.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeOut{
+  100%{
+    opacity: 0;
+    visibility: hidden;
+    height: 0%;
+  }
 }
 
 
