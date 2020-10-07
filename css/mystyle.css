@@ -60,6 +60,7 @@ p.right{
   }
 
 p.middle{
+  z-index: 0;
   line-height: 150%;
   position: absolute;
   background: rgba(0, 0, 0, 0.9);
@@ -73,6 +74,7 @@ p.middle{
 }
 
 .middle2{
+  z-index: 0;
   line-height: 320%;
   width: 40%;
   position: absolute;
@@ -219,9 +221,11 @@ a:hover{
 
 @keyframes fadeIn {
   from{
+    z-index: -1;
     opacity: 0;
   }
   to {
+    z-index: 1;
     opacity: 1;
   }
 }
@@ -249,6 +253,7 @@ a:hover{
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 3;
   height: 100%;
   width: 100%;
   background-color: #222222;
@@ -258,6 +263,7 @@ a:hover{
 }
 
 .loader.hidden{
+  z-index: 1;
   animation: fadeOut 1.5s;
   animation-fill-mode: forwards;
 }
@@ -268,6 +274,10 @@ a:hover{
     visibility: hidden;
     height: 0%;
   }
+
+  0%{
+    z-index: 1;
+  };
 }
 
 
